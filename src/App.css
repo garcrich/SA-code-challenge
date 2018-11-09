@@ -1,0 +1,27 @@
+.form-input-invalid, .form-input-invalid:focus {
+  border: 2px solid #fda8a8;
+}
+
+.form-error-message {
+  display: block;
+  color: red;
+}
+
+.Modal {
+  position: absolute;
+  padding: 2.5rem;
+  top: calc(12.5% + 100px);
+  left: 40px;
+  right: 40px;
+  bottom: 12.5%;
+  border: solid 2px #1fc2de;
+  background-color: #fff;
+  text-align: center;
+}
+
+.modal-text-container {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
+}
