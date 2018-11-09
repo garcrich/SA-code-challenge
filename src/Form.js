@@ -70,7 +70,24 @@ class ContactForm extends Component {
 
 
           submissionMessage: response.data,
-          showModal: true
+          showModal: true,
+          name: '',
+          email: '',
+          email_2: '',
+          telephone: '',
+          subject: '',
+          message: '',
+      
+          emptyName: false,
+          emptyEmail: false,
+          emptyEmail_2: false,
+          emptyTelephone: false,
+          emptySubject: false,
+          emptyMessage: false,
+      
+          emailMismatch: false,
+          emailInvalid: false,
+          email_2_Invalid: false
         })
       }).catch(function (error) {
         self.setState({
